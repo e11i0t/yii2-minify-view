@@ -1,5 +1,5 @@
-Yii 2 Minify View Component
-===========================
+Yii 2 Minify View Component (ClientScript mashup)
+=================================================
 
 The main feature of this component - concatenate and compress files 
 connected through "AssetBundle".
