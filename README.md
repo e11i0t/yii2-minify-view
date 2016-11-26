@@ -90,11 +90,12 @@ Example for js with options
 <?php $this->endJs(); ?>
 ```
 
+
 Simple example for css
 ```php
 <?php $this->beginCss(); ?>
 	<style>
-		// Write your CSS here.
+		/* Write your CSS here. */
 	</style>
 <?php $this->endCss(); ?>
 ```
@@ -103,7 +104,7 @@ Example for js with options
 ```php
 <?php $this->beginCss(['media' => 'screen'], 'unique-id'); ?>
 	<style type="text/css">
-		// Write your CSS here.
+		/* Write your CSS here. */
 	</style>
 <?php $this->endCss(); ?>
  ```
