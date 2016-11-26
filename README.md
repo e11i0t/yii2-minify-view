@@ -70,3 +70,40 @@ return [
 	]
 ];
 ```
+
+ClientScript
+------------
+Simple example for js
+```php
+<?php $this->beginJs(); ?>
+	<script>
+		// Write your JavaScript here.
+	</script>
+<?php $this->endJs(); ?>
+```
+Example for js with options
+```php
+<?php $this->beginJs(View::POS_HEAD, 'unique-id'); ?>
+	<script type="text/javascript">
+		// Write your JavaScript here.
+	</script>
+<?php $this->endJs(); ?>
+```
+
+Simple example for css
+```php
+<?php $this->beginCss(); ?>
+	<style>
+		// Write your CSS here.
+	</style>
+<?php $this->endCss(); ?>
+```
+
+Example for js with options
+```php
+<?php $this->beginCss(['media' => 'screen'], 'unique-id'); ?>
+	<style type="text/css">
+		// Write your CSS here.
+	</style>
+<?php $this->endCss(); ?>
+ ```
